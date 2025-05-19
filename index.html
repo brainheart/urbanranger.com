@@ -27,24 +27,13 @@ h3    { font-size: 100%; }
 
 
 
-<tr>
-<td>
 
-<!-- AddThis Bookmark Button BEGIN -->
-<a href="http://www.addthis.com/bookmark.php" onclick="addthis_url   = location.href; addthis_title = document.title; return addthis_click(this);" target="_blank"><img src="http://s9.addthis.com/button1-bm.gif" width="125" height="16" border="0" alt="AddThis Social Bookmark Button" /></a> <script type="text/javascript">var addthis_pub = 'reinhard';</script><script type="text/javascript" src="http://s9.addthis.com/js/widget.php?v=10"></script>  
-<!-- AddThis Bookmark Button END -->
-</td>
-</tr>
 
 <tr><td>&nbsp;</td></tr>
 
 
 
-<tr>
-<td>
-<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=everydaysyste-20&o=1&p=8&l=as1&asins=0399534040&fc1=000000&IS2=1&lt1=_blank&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr&nou=1" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-</td>
-</tr>
+
 
 <tr><td>&nbsp;</td></tr>
 
@@ -258,11 +247,13 @@ bulletin board system.</p>
 
 </td></tr></table><!-- main table -->
 
+<p>&nbsp;&#169; 2002-<span id="copyright-year"></span>  <a href="http://everydaysystems.com"
+>Reinhard Engels</a>, All Rights Reserved.</p>
 
-<p>By <a href="mailto:reinhard.engels@gmail.com">Reinhard Engels</a></p>
-
-<p>&nbsp;&#169; 2002-<?php echo date("Y") ?>  <a href="http://everydaysystems.com"
->Everyday Systems LLC</a>, All Rights Reserved.</p>
+<script>
+  // Set copyright year dynamically
+  document.getElementById('copyright-year').textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
